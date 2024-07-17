@@ -25,7 +25,7 @@ SSD1306AsciiSpi oled;
 #include <SD.h>
 #include <TMRpcm.h>
 
-#define SD_ChipSelectPin 6
+#define SD_ChipSelectPin 0
 TMRpcm tmrpcm;
 
 #include <CapacitiveSensor.h>
